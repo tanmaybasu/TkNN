@@ -4,11 +4,10 @@ initial value of k as β. If the difference between the number of representative
 
 The method is explained in the following papers and the steps to implement the method are stated below.
 
-[Tanmay Basu and C. A. Murthy. Towards Enriching the Quality of  $k$-Nearest Neighbor Decision Rule for 
-Document Classification. International Journal of Machine Learning and Cybernetics, Springer, vol. 5(6), pp. 897-905, 2014](https://doi.org/10.1007/s13042-013-0177-1).
+[Tanmay Basu and C. A. Murthy. Towards Enriching the Quality of  k-Nearest Neighbor Decision Rule for Document Classification. International Journal of Machine Learning and Cybernetics, Springer, vol. 5(6), pp. 897-905, 2014](https://doi.org/10.1007/s13042-013-0177-1).
 
 
-[Tanmay Basu, C. A. Murthy and Himadri Chakraborty. A Tweak on K Nearest Neighbour Decision Rule, published in Proceedings of the International Conference on Image Processing, Computer Vision, and Pattern Recognition, pp. 929-935, USA, 2012](https://pdfs.semanticscholar.org/7f8e/304d99bc4bb48a3a63600a20fd4ddaaf75b3.pdf}{ISBN: 1-60132-223-2).
+[Tanmay Basu, C. A. Murthy and Himadri Chakraborty. A Tweak on K Nearest Neighbour Decision Rule, published in Proceedings of the International Conference on Image Processing, Computer Vision, and Pattern Recognition, pp. 929-935, USA, 2012](https://pdfs.semanticscholar.org/7f8e/304d99bc4bb48a3a63600a20fd4ddaaf75b3.pdf).
 
 ## How to run the model?
 
@@ -22,4 +21,4 @@ predicted_class_label = clf.predict(X_test)
 
 Here `X_train` is the training data and it is an array or matrix and has shapes '[n_samples, n_features]'. 'y_train' is the class labels of individual samples in 'X_train'. Similarly, 'X_test' is the test data and it is also an array or matrix and has shapes '[n_samples, n_features]'. The following options of distance metric s are available: 'cosine', 'chebyshev', 'cityblock', 'euclidean', 'minkowski'. 
 
-An example code to implement TkNN using a sample data is uploaded as `testing.py`. For any further query, you may reach out to me at welcometanmay@gmail.com
+An example code to implement TkNN using a sample data is uploaded as `testing_TkNN.py`. For any further query, you may reach out to me at welcometanmay@gmail.com
