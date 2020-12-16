@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Dec 16 16:12:06 2020
-
+Created on Wednesday, Dec 16, 2020 @  16:12:06
 @author: Tanmay Basu
-
 """
 
 
