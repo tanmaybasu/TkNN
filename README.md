@@ -19,5 +19,4 @@ predicted_class_label = clf.predict(X_test)
 ```
 
 Here `X_train` is the training data and it is an array or matrix and has shapes '[n_samples, n_features]'. 'y_train' is the class labels of individual samples in 'X_train'. Similarly, 'X_test' is the test data and it is also an array or matrix and has shapes '[n_samples, n_features]'. The following options of distance metric s are available: 'cosine', 'chebyshev', 'cityblock', 'euclidean', 'minkowski'. β is the threshold on majority voting and ϴ is the threshold on similarity between data points.
-
-An example code to implement TkNN using a sample data is uploaded as `testing_TkNN.py`. For any further query, you may reach out to me at welcometanmay@gmail.com
+For any further query, comment or suggestion, you may reach out to me at welcometanmay@gmail.com. For any further query, you may reach out to me at welcometanmay@gmail.com.
