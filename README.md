@@ -18,5 +18,5 @@ clf.fit(X_train,y_train)
 predicted_class_label = clf.predict(X_test)
 ```
 
-Here `X_train` is the training data and it is a numeric  array or matrix and has shapes '[n_samples, n_features]'. `y_train` is the class labels of individual samples in X_train. Similarly, `X_test` is the test data and it is also an array or matrix and has shapes '[n_samples, n_features]'. The following options of distance metric s are available: 'cosine', 'chebyshev', 'cityblock', 'euclidean', 'minkowski'. β is the threshold on majority voting and ϴ is the threshold on similarity between two data points.
+Here `X_train` is the training data and it is a numeric  array or matrix and has shapes '[n_samples, n_features]'. `y_train` is the class labels of individual samples in X_train. Similarly, `X_test` is the test data and it is also an array or matrix and has shapes '[n_samples, n_features]'. The following options of distance metric s are available: 'cosine', 'chebyshev', 'cityblock', 'euclidean', 'minkowski'. `Beta` is the threshold on majority voting and `theta` is the threshold on similarity between two data points.
 For any further query, comment or suggestion, you may reach out to me at welcometanmay@gmail.com. For any further query, you may reach out to me at welcometanmay@gmail.com.
