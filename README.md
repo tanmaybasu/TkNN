@@ -40,7 +40,7 @@ For any further query, comment or suggestion, you may reach out to me at welcome
  publisher = " "
 }
 
-@Article{basu14tknntext ,
+@article{basu14tknntext ,
   author = 	 "T. Basu and C. A. Murthy ",
   title = 	 "Towards Enriching the Quality of k-Nearest Neighbor Rule for Document Classification ",
   journal =	 "International Journal of Machine Learning and Cybernetics",
