@@ -9,7 +9,7 @@ The method is explained in the following papers and the steps to implement the m
 [Tanmay Basu, C. A. Murthy and Himadri Chakraborty. A Tweak on K Nearest Neighbour Decision Rule, published in Proceedings of the International Conference on Image Processing, Computer Vision, and Pattern Recognition, pp. 929-935, USA, 2012](https://pdfs.semanticscholar.org/7f8e/304d99bc4bb48a3a63600a20fd4ddaaf75b3.pdf).
 
 ## Prerequsites
-[Python 3 version](https://www.python.org/downloads/), [NumPy](https://numpy.org/install/), [Scipy](https://pypi.org/project/scipy/) [Scikit-Learn](https://scikit-learn.org/0.16/install.html)
+[Python 3](https://www.python.org/downloads/), [NumPy](https://numpy.org/install/), [Scipy](https://pypi.org/project/scipy/) [Scikit-Learn](https://scikit-learn.org/0.16/install.html)
 
 ## How to run the model?
 
