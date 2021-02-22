@@ -8,6 +8,9 @@ The method is explained in the following papers and the steps to implement the m
 
 [Tanmay Basu, C. A. Murthy and Himadri Chakraborty. A Tweak on K Nearest Neighbour Decision Rule, published in Proceedings of the International Conference on Image Processing, Computer Vision, and Pattern Recognition, pp. 929-935, USA, 2012](https://pdfs.semanticscholar.org/7f8e/304d99bc4bb48a3a63600a20fd4ddaaf75b3.pdf).
 
+## Prerequsites
+[Python 3 version](https://www.python.org/downloads/), [NumPy](https://numpy.org/install/), [Scipy](https://pypi.org/project/scipy/) [Scikit-Learn](https://scikit-learn.org/0.16/install.html)
+
 ## How to run the model?
 
 The model is implemented in MedNN.py. Run the following lines to train the classifier on a set of data samples and subsequently test it's performance on another set of data samples. 
@@ -20,4 +23,30 @@ predicted_class_label = clf.predict(X_test)
 
 Here `X_train` is the training data and it is a numeric  array or matrix and has shapes '[n_samples, n_features]'. `y_train` is the class labels of individual samples in X_train. Similarly, `X_test` is the test data and it is also an array or matrix and has shapes '[n_samples, n_features]'. The following options of distance metrics are available: 'cosine', 'chebyshev', 'cityblock', 'euclidean', 'minkowski' and the `default` is `cosine distance`. `Beta` is the threshold on majority voting and `theta` is the threshold on similarity between two data points.
 
-For any further query, comment or suggestion, you may reach out to me at welcometanmay@gmail.com. 
+## Contact
+
+For any further query, comment or suggestion, you may reach out to me at welcometanmay@gmail.com
+
+## Citing
+```
+@inproceedings{basu16tknn,
+ author    = "T. Basu and C. A. Murthy  and H. Chakraborty ",
+ title     = "A Tweak on K-Nearest Neighbor Decision Rule ",
+ year      = "2012 ",
+ pages     = "929-935 ",
+ editor    = " ",
+ booktitle = "Proceedings of the International Conference on Image Processing, Computer Vision, and Pattern Recognition",
+ address   = "Las Vegas, USA ",
+ publisher = " "
+}
+
+@Article{basu16tknntext ,
+  author = 	 "T. Basu and C. A. Murthy ",
+  title = 	 "Towards Enriching the Quality of k-Nearest Neighbor Rule for Document Classification ",
+  journal =	 "International Journal of Machine Learning and Cybernetics",
+  year =	 "2014 ",
+  volume =	 "5 ",
+  number =	 "6 ",
+  pages =	 "897-905 "
+}
+```
