@@ -27,7 +27,7 @@ Here `X_train` is the training data and it is a numeric  array or matrix and has
 
 For any further query, comment or suggestion, you may reach out to me at welcometanmay@gmail.com
 
-## Citing
+## Citation
 ```
 @inproceedings{basu12tknn,
  author    = "T. Basu and C. A. Murthy  and H. Chakraborty ",
